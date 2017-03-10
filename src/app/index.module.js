@@ -10,6 +10,12 @@ import coreModule from './core/core.module';
 import indexComponents from './index.components';
 import indexRoutes from './index.routes';
 import mainModule from './pages/main/main.module';
+import usersModule from './pages/users/users.module';
+import eventsModule from './pages/events/events.module';
+import newsModule from './pages/news/news.module';
+import settingsModule from './pages/settings/settings.module';
+
+
 
 
 const App = angular.module(
@@ -35,8 +41,11 @@ const App = angular.module(
     indexRoutes.name,
 
     // pages
-    mainModule.name
-
+    mainModule.name,
+    usersModule.name,
+    eventsModule.name,
+    newsModule.name,
+    settingsModule.name
   ]
 );
 
