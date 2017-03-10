@@ -1,25 +1,11 @@
-<div class="jumbotron">
+<section id="about" class="about section">
     <div class="container">
-        <h1>Hello, world!</h1>
-        <p>This is a simple angular webpack es6 example, compatible with lazy-loading modules.</p>
-	
-		<p>Lodash version: {{main.lodash_version}}</p>
-	
-	
-		<p>Moment version: {{main.moment_version}}</p>
-	
-    
-        <p><button class="btn btn-primary btn-lg" role="button" ui-sref="async">Go to the Dark Side! »</button></p>
-    
-        <div class="row">
-            <div class="col-md-4">
-                <div>Image source: <b>Model</b></div>
-                <img ng-src="{{main.angularLogo}}" alt="Angular logo">
-            </div>
-            <div class="col-md-4">
-                <div>Image source: <b>URL</b></div>
-                <img src="../../../assets/images/yeoman.png" alt="Yeoman logo">
-            </div>
+        <h2 class="title text-center">Dashboard</h2>
+
+        <div class="form-group">
+            <label for="comment">Comment:</label>
+            <textarea class="form-control" rows="5" id="comment"></textarea>
         </div>
     </div>
-</div>
+    <!--//container-->
+</section>

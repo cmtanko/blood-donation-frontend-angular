@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Angular Webpack ES6 Project</title>
+    <title>Blood Donation</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -19,9 +19,44 @@
     <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
+
+    <header id="header" class="header">  
+        <div class="container">            
+            <h1 class="logo pull-left">
+                <a class="scrollto" href="#promo">
+                    <span class="logo-title">Blood Donation</span>
+                </a>
+            </h1>          
+            <nav id="main-nav" class="main-nav navbar-right" role="navigation">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>        
+                <div class="navbar-collapse collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active nav-item sr-only"><a class="scrollto" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#events">Events</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#news">News</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#users">Users</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#settings">Settings</a></li>                        
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
     <div ui-view></div>
 
-    <footer-test></footer-test>
+
+    <footer class="footer">
+        <div class="container text-center">
+            <small class="copyright">Footer<i class="fa fa-heart"></i></small>
+        </div>
+    </footer>
 
 </body>
 </html>
